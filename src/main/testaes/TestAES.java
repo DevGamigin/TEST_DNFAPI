@@ -25,13 +25,6 @@ public class TestAES {
         System.out.println("aes256.decrypt ===> " + aes256.decrypt(cipWord));
 
 
-        HashMap<String, Object> map1 = new HashMap<>();
-
-        map1.put("t1", 123);
-        map1.put("t2", "232");
-        map1.put("t3", 45.23);
-
-        System.out.println("map =====> " + map1);
 
     }
 }
