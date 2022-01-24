@@ -16,6 +16,7 @@ public class TestAES {
         System.out.println("aes256.decrypt ===> " + aes256.decrypt(cipWord));
 
 
+        System.out.println("git test");
 
 
     }
