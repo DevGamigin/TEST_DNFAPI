@@ -1,5 +1,7 @@
 package main;
 
+import org.json.simple.parser.JSONParser;
+
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
 import java.net.HttpURLConnection;
@@ -21,6 +23,16 @@ public class Test2 {
                 result = result + line + "\n";
             }
             System.out.println(result);
+
+            JSONParser json = new JSONParser();
+
+            json.parse(result);
+
+            System.out.println( json.parse(result));
+
+
+
+
         }catch(Exception e){
             System.out.println(e.getMessage());
         }
