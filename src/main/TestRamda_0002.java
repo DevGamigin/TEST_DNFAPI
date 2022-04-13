@@ -19,6 +19,11 @@ class Person{
         int number = line.ir1(3, 4);
         System.out.println("num2 is ==> " + number);
     }
+    
+    public void h23() {
+    	System.out.println("23dd");
+    }
+    
 }
 
 
